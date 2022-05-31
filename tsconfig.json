@@ -19,7 +19,42 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": "src"
+    "baseUrl": "src",
+    "paths": {
+      "app/*": [
+        "./src/app/*"
+      ],
+      "auth/*": [
+        "./src/auth/*"
+      ],
+      "components/*": [
+        "./src/components/*"
+      ],
+      "config/*": [
+        "./src/config/*"
+      ],
+      "data/*": [
+        "./src/data/*"
+      ],
+      "locales/*": [
+        "./src/locales/*"
+      ],
+      "pages/*": [
+        "./src/pages/*"
+      ],
+      "styles/*": [
+        "./src/styles/*"
+      ],
+      "txs/*": [
+        "./src/txs/*"
+      ],
+      "types/*": [
+        "./src/types/*"
+      ],
+      "utils/*": [
+        "./src/utils/*"
+      ]
+    }
   },
   "include": ["src"]
 }

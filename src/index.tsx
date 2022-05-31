@@ -10,7 +10,7 @@ import "config/lang"
 import { BRIDGE } from "config/constants"
 import { debug } from "utils/env"
 
-import "index.scss"
+import "./index.scss"
 import ScrollToTop from "app/ScrollToTop"
 import InitNetworks from "app/InitNetworks"
 import InitWallet from "app/InitWallet"
